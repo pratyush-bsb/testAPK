@@ -1,0 +1,71 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+    	// updating class path due to http://stackoverflow.com/questions/29962735/android-studio-gradle-error
+        classpath 'com.android.tools.build:gradle:1.1.2+'
+    }
+}
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion "Google Inc.:Google APIs:21"
+    buildToolsVersion "22.0.1"
+    aaptOptions {
+        useNewCruncher true
+    }
+    defaultConfig {
+        minSdkVersion 14
+        renderscriptTargetApi 18
+        renderscriptSupportModeEnabled true
+        targetSdkVersion 17
+    }
+    lintOptions {
+        lintConfig file("lint.xml")
+        abortOnError false
+    }
+    dexOptions {
+        javaMaxHeapSize "2048M"
+        preDexLibraries = false 
+        jumboMode = true
+    }
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['okhttp-urlconnection','okhttp','mqtt', 'src']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+    signingConfigs {
+        release {
+            storeFile file("my-release-key.keystore")
+            storePassword "123456"
+            keyAlias "alias_name"
+            keyPassword "123456"
+        }
+    }
+    buildTypes {
+        release {
+        	minifyEnabled true
+            debuggable false
+            signingConfig signingConfigs.release
+        }
+        debug {
+            debuggable true
+        }
+    }
+    productFlavors {
+    arm {
+        ndk {
+            abiFilters "armeabi", "armeabi-v7a"
+        	}
+    	}
+	}
+}

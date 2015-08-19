@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/kumarpratyush/Desktop/MyApp/assets"/></dataSet><dataSet config="arm"><source path="/Users/kumarpratyush/Desktop/MyApp/src/arm/assets"/></dataSet><dataSet config="release"><source path="/Users/kumarpratyush/Desktop/MyApp/src/release/assets"/></dataSet><dataSet config="armRelease"><source path="/Users/kumarpratyush/Desktop/MyApp/src/armRelease/assets"/></dataSet></merger>

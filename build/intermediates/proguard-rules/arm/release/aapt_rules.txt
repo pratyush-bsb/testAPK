@@ -1,0 +1,12 @@
+# view AndroidManifest.xml #generated:25
+-keep class com.example.myapp.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:34
+-keep class com.example.myapp.Menu { <init>(...); }
+
+# view AndroidManifest.xml #generated:16
+-keep class com.example.myapp.Splash { <init>(...); }
+
+# view AndroidManifest.xml #generated:43
+-keep class com.example.myapp.TextPlay { <init>(...); }
+

@@ -1,0 +1,1465 @@
+_____________________________________________________________________
++ Program class: com/example/myapp/MainActivity
+  Superclass:    android/app/Activity
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x21
+    = public class com.example.myapp.MainActivity extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 81):
+  + Integer [2130903040]
+  + Integer [2131165184]
+  + Integer [2131230720]
+  + Integer [2131230721]
+  + Integer [2131230722]
+  + Integer [2131230728]
+  + Class [android/app/Activity]
+  + Class [android/view/MenuInflater]
+  + Class [android/view/MenuItem]
+  + Class [android/widget/Button]
+  + Class [android/widget/TextView]
+  + Class [com/example/myapp/MainActivity]
+  + Class [com/example/myapp/a]
+  + Class [com/example/myapp/b]
+  + Fieldref [com/example/myapp/MainActivity.a I]
+  + Fieldref [com/example/myapp/MainActivity.b Landroid/widget/Button;]
+  + Fieldref [com/example/myapp/MainActivity.c Landroid/widget/Button;]
+  + Fieldref [com/example/myapp/MainActivity.d Landroid/widget/TextView;]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/app/Activity.onOptionsItemSelected (Landroid/view/MenuItem;)Z]
+  + Methodref [android/view/MenuInflater.inflate (ILandroid/view/Menu;)V]
+  + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + Methodref [com/example/myapp/MainActivity.findViewById (I)Landroid/view/View;]
+  + Methodref [com/example/myapp/MainActivity.getMenuInflater ()Landroid/view/MenuInflater;]
+  + Methodref [com/example/myapp/MainActivity.setContentView (I)V]
+  + Methodref [com/example/myapp/a.<init> (Lcom/example/myapp/MainActivity;)V]
+  + Methodref [com/example/myapp/b.<init> (Lcom/example/myapp/MainActivity;)V]
+  + InterfaceMethodref [android/view/MenuItem.getItemId ()I]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Lcom/example/myapp/MainActivity;)V]
+  + NameAndType [a I]
+  + NameAndType [b Landroid/widget/Button;]
+  + NameAndType [c Landroid/widget/Button;]
+  + NameAndType [d Landroid/widget/TextView;]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [getItemId ()I]
+  + NameAndType [getMenuInflater ()Landroid/view/MenuInflater;]
+  + NameAndType [inflate (ILandroid/view/Menu;)V]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [onOptionsItemSelected (Landroid/view/MenuItem;)Z]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + Utf8 [()I]
+  + Utf8 [()Landroid/view/MenuInflater;]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)V]
+  + Utf8 [(ILandroid/view/Menu;)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/view/Menu;)Z]
+  + Utf8 [(Landroid/view/MenuItem;)Z]
+  + Utf8 [(Landroid/view/View$OnClickListener;)V]
+  + Utf8 [(Lcom/example/myapp/MainActivity;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [I]
+  + Utf8 [Landroid/widget/Button;]
+  + Utf8 [Landroid/widget/TextView;]
+  + Utf8 [a]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/view/MenuInflater]
+  + Utf8 [android/view/MenuItem]
+  + Utf8 [android/widget/Button]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [com/example/myapp/MainActivity]
+  + Utf8 [com/example/myapp/a]
+  + Utf8 [com/example/myapp/b]
+  + Utf8 [d]
+  + Utf8 [findViewById]
+  + Utf8 [getItemId]
+  + Utf8 [getMenuInflater]
+  + Utf8 [inflate]
+  + Utf8 [onCreate]
+  + Utf8 [onCreateOptionsMenu]
+  + Utf8 [onOptionsItemSelected]
+  + Utf8 [setContentView]
+  + Utf8 [setOnClickListener]
+
+Fields (count = 4):
+  + Field:        a I
+    Access flags: 0x0
+      = int a
+  + Field:        b Landroid/widget/Button;
+    Access flags: 0x0
+      = android.widget.Button b
+  + Field:        c Landroid/widget/Button;
+    Access flags: 0x0
+      = android.widget.Button c
+  + Field:        d Landroid/widget/TextView;
+    Access flags: 0x0
+      = android.widget.TextView d
+
+Methods (count = 4):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public MainActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #19
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x4
+      = protected void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 86, locals = 2, stack = 4):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #20
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #1
+        + Integer [2130903040]
+      [8] invokevirtual #26
+        + Methodref [com/example/myapp/MainActivity.setContentView (I)V]
+      [11] aload_0 v0
+      [12] iconst_0
+      [13] putfield #15
+        + Fieldref [com/example/myapp/MainActivity.a I]
+      [16] aload_0 v0
+      [17] aload_0 v0
+      [18] ldc #5
+        + Integer [2131230722]
+      [20] invokevirtual #24
+        + Methodref [com/example/myapp/MainActivity.findViewById (I)Landroid/view/View;]
+      [23] checkcast #10
+        + Class [android/widget/Button]
+      [26] putfield #16
+        + Fieldref [com/example/myapp/MainActivity.b Landroid/widget/Button;]
+      [29] aload_0 v0
+      [30] aload_0 v0
+      [31] ldc #4
+        + Integer [2131230721]
+      [33] invokevirtual #24
+        + Methodref [com/example/myapp/MainActivity.findViewById (I)Landroid/view/View;]
+      [36] checkcast #10
+        + Class [android/widget/Button]
+      [39] putfield #17
+        + Fieldref [com/example/myapp/MainActivity.c Landroid/widget/Button;]
+      [42] aload_0 v0
+      [43] aload_0 v0
+      [44] ldc #3
+        + Integer [2131230720]
+      [46] invokevirtual #24
+        + Methodref [com/example/myapp/MainActivity.findViewById (I)Landroid/view/View;]
+      [49] checkcast #11
+        + Class [android/widget/TextView]
+      [52] putfield #18
+        + Fieldref [com/example/myapp/MainActivity.d Landroid/widget/TextView;]
+      [55] aload_0 v0
+      [56] getfield #16
+        + Fieldref [com/example/myapp/MainActivity.b Landroid/widget/Button;]
+      [59] new #13
+        + Class [com/example/myapp/a]
+      [62] dup
+      [63] aload_0 v0
+      [64] invokespecial #27
+        + Methodref [com/example/myapp/a.<init> (Lcom/example/myapp/MainActivity;)V]
+      [67] invokevirtual #23
+        + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [70] aload_0 v0
+      [71] getfield #17
+        + Fieldref [com/example/myapp/MainActivity.c Landroid/widget/Button;]
+      [74] new #14
+        + Class [com/example/myapp/b]
+      [77] dup
+      [78] aload_0 v0
+      [79] invokespecial #28
+        + Methodref [com/example/myapp/b.<init> (Lcom/example/myapp/MainActivity;)V]
+      [82] invokevirtual #23
+        + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [85] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreateOptionsMenu(Landroid/view/Menu;)Z
+    Access flags: 0x1
+      = public boolean onCreateOptionsMenu(android.view.Menu)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 12, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] invokevirtual #25
+        + Methodref [com/example/myapp/MainActivity.getMenuInflater ()Landroid/view/MenuInflater;]
+      [4] ldc #2
+        + Integer [2131165184]
+      [6] aload_1 v1
+      [7] invokevirtual #22
+        + Methodref [android/view/MenuInflater.inflate (ILandroid/view/Menu;)V]
+      [10] iconst_1
+      [11] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onOptionsItemSelected(Landroid/view/MenuItem;)Z
+    Access flags: 0x1
+      = public boolean onOptionsItemSelected(android.view.MenuItem)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 21, locals = 3, stack = 2):
+      [0] aload_1 v1
+      [1] invokeinterface #29, 256
+        + InterfaceMethodref [android/view/MenuItem.getItemId ()I]
+      [6] istore_2 v2
+      [7] iload_2 v2
+      [8] ldc #6
+        + Integer [2131230728]
+      [10] ificmpne +5 (target=15)
+      [13] iconst_1
+      [14] ireturn
+      [15] aload_0 v0
+      [16] aload_1 v1
+      [17] invokespecial #21
+        + Methodref [android/app/Activity.onOptionsItemSelected (Landroid/view/MenuItem;)Z]
+      [20] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/myapp/a
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x20
+    = class com.example.myapp.a extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/view/View$OnClickListener]
+
+Constant Pool (count = 50):
+  + String [you total is ]
+  + Class [android/view/View$OnClickListener]
+  + Class [android/widget/TextView]
+  + Class [com/example/myapp/MainActivity]
+  + Class [com/example/myapp/a]
+  + Class [java/lang/Object]
+  + Class [java/lang/StringBuilder]
+  + Fieldref [com/example/myapp/MainActivity.a I]
+  + Fieldref [com/example/myapp/MainActivity.d Landroid/widget/TextView;]
+  + Fieldref [com/example/myapp/a.a Lcom/example/myapp/MainActivity;]
+  + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + Methodref [java/lang/StringBuilder.<init> ()V]
+  + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  + NameAndType [<init> ()V]
+  + NameAndType [a I]
+  + NameAndType [a Lcom/example/myapp/MainActivity;]
+  + NameAndType [append (I)Ljava/lang/StringBuilder;]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + NameAndType [d Landroid/widget/TextView;]
+  + NameAndType [setText (Ljava/lang/CharSequence;)V]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(I)Ljava/lang/StringBuilder;]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Lcom/example/myapp/MainActivity;)V]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [I]
+  + Utf8 [Landroid/widget/TextView;]
+  + Utf8 [Lcom/example/myapp/MainActivity;]
+  + Utf8 [a]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [append]
+  + Utf8 [com/example/myapp/MainActivity]
+  + Utf8 [com/example/myapp/a]
+  + Utf8 [d]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [onClick]
+  + Utf8 [setText]
+  + Utf8 [toString]
+  + Utf8 [you total is ]
+
+Fields (count = 1):
+  + Field:        a Lcom/example/myapp/MainActivity;
+    Access flags: 0x1010
+      = final synthetic com.example.myapp.MainActivity a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/example/myapp/MainActivity;)V
+    Access flags: 0x0
+      = a(com.example.myapp.MainActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #10
+        + Fieldref [com/example/myapp/a.a Lcom/example/myapp/MainActivity;]
+      [5] aload_0 v0
+      [6] invokespecial #12
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void onClick(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 52, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] getfield #10
+        + Fieldref [com/example/myapp/a.a Lcom/example/myapp/MainActivity;]
+      [4] aload_0 v0
+      [5] getfield #10
+        + Fieldref [com/example/myapp/a.a Lcom/example/myapp/MainActivity;]
+      [8] getfield #8
+        + Fieldref [com/example/myapp/MainActivity.a I]
+      [11] iconst_1
+      [12] iadd
+      [13] putfield #8
+        + Fieldref [com/example/myapp/MainActivity.a I]
+      [16] aload_0 v0
+      [17] getfield #10
+        + Fieldref [com/example/myapp/a.a Lcom/example/myapp/MainActivity;]
+      [20] getfield #9
+        + Fieldref [com/example/myapp/MainActivity.d Landroid/widget/TextView;]
+      [23] new #7
+        + Class [java/lang/StringBuilder]
+      [26] dup
+      [27] invokespecial #13
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [30] ldc #1
+        + String [you total is ]
+      [32] invokevirtual #15
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [35] aload_0 v0
+      [36] getfield #10
+        + Fieldref [com/example/myapp/a.a Lcom/example/myapp/MainActivity;]
+      [39] getfield #8
+        + Fieldref [com/example/myapp/MainActivity.a I]
+      [42] invokevirtual #14
+        + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
+      [45] invokevirtual #16
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [48] invokevirtual #11
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [51] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/myapp/b
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x20
+    = class com.example.myapp.b extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/view/View$OnClickListener]
+
+Constant Pool (count = 50):
+  + String [you total is ]
+  + Class [android/view/View$OnClickListener]
+  + Class [android/widget/TextView]
+  + Class [com/example/myapp/MainActivity]
+  + Class [com/example/myapp/b]
+  + Class [java/lang/Object]
+  + Class [java/lang/StringBuilder]
+  + Fieldref [com/example/myapp/MainActivity.a I]
+  + Fieldref [com/example/myapp/MainActivity.d Landroid/widget/TextView;]
+  + Fieldref [com/example/myapp/b.a Lcom/example/myapp/MainActivity;]
+  + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + Methodref [java/lang/StringBuilder.<init> ()V]
+  + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  + NameAndType [<init> ()V]
+  + NameAndType [a I]
+  + NameAndType [a Lcom/example/myapp/MainActivity;]
+  + NameAndType [append (I)Ljava/lang/StringBuilder;]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + NameAndType [d Landroid/widget/TextView;]
+  + NameAndType [setText (Ljava/lang/CharSequence;)V]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(I)Ljava/lang/StringBuilder;]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Lcom/example/myapp/MainActivity;)V]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [I]
+  + Utf8 [Landroid/widget/TextView;]
+  + Utf8 [Lcom/example/myapp/MainActivity;]
+  + Utf8 [a]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [append]
+  + Utf8 [com/example/myapp/MainActivity]
+  + Utf8 [com/example/myapp/b]
+  + Utf8 [d]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [onClick]
+  + Utf8 [setText]
+  + Utf8 [toString]
+  + Utf8 [you total is ]
+
+Fields (count = 1):
+  + Field:        a Lcom/example/myapp/MainActivity;
+    Access flags: 0x1010
+      = final synthetic com.example.myapp.MainActivity a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/example/myapp/MainActivity;)V
+    Access flags: 0x0
+      = b(com.example.myapp.MainActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #10
+        + Fieldref [com/example/myapp/b.a Lcom/example/myapp/MainActivity;]
+      [5] aload_0 v0
+      [6] invokespecial #12
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void onClick(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 52, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] getfield #10
+        + Fieldref [com/example/myapp/b.a Lcom/example/myapp/MainActivity;]
+      [4] aload_0 v0
+      [5] getfield #10
+        + Fieldref [com/example/myapp/b.a Lcom/example/myapp/MainActivity;]
+      [8] getfield #8
+        + Fieldref [com/example/myapp/MainActivity.a I]
+      [11] iconst_1
+      [12] isub
+      [13] putfield #8
+        + Fieldref [com/example/myapp/MainActivity.a I]
+      [16] aload_0 v0
+      [17] getfield #10
+        + Fieldref [com/example/myapp/b.a Lcom/example/myapp/MainActivity;]
+      [20] getfield #9
+        + Fieldref [com/example/myapp/MainActivity.d Landroid/widget/TextView;]
+      [23] new #7
+        + Class [java/lang/StringBuilder]
+      [26] dup
+      [27] invokespecial #13
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [30] ldc #1
+        + String [you total is ]
+      [32] invokevirtual #15
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [35] aload_0 v0
+      [36] getfield #10
+        + Fieldref [com/example/myapp/b.a Lcom/example/myapp/MainActivity;]
+      [39] getfield #8
+        + Fieldref [com/example/myapp/MainActivity.a I]
+      [42] invokevirtual #14
+        + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
+      [45] invokevirtual #16
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [48] invokevirtual #11
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [51] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/myapp/Menu
+  Superclass:    android/app/ListActivity
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x21
+    = public class com.example.myapp.Menu extends android.app.ListActivity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 83):
+  + Integer [17367043]
+  + String [MainActivity]
+  + String [Splash]
+  + String [TextPlay]
+  + String [com.example.myapp.]
+  + String [example2]
+  + String [example3]
+  + String [example4]
+  + String [example5]
+  + String [example6]
+  + Class [android/app/ListActivity]
+  + Class [android/content/Intent]
+  + Class [android/widget/ArrayAdapter]
+  + Class [com/example/myapp/Menu]
+  + Class [java/lang/Class]
+  + Class [java/lang/ClassNotFoundException]
+  + Class [java/lang/String]
+  + Class [java/lang/StringBuilder]
+  + Fieldref [com/example/myapp/Menu.a [Ljava/lang/String;]
+  + Methodref [android/app/ListActivity.<init> ()V]
+  + Methodref [android/app/ListActivity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/app/ListActivity.onListItemClick (Landroid/widget/ListView;Landroid/view/View;IJ)V]
+  + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+  + Methodref [android/widget/ArrayAdapter.<init> (Landroid/content/Context;I[Ljava/lang/Object;)V]
+  + Methodref [com/example/myapp/Menu.setListAdapter (Landroid/widget/ListAdapter;)V]
+  + Methodref [com/example/myapp/Menu.startActivity (Landroid/content/Intent;)V]
+  + Methodref [java/lang/Class.forName (Ljava/lang/String;)Ljava/lang/Class;]
+  + Methodref [java/lang/ClassNotFoundException.printStackTrace ()V]
+  + Methodref [java/lang/StringBuilder.<init> ()V]
+  + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Landroid/content/Context;I[Ljava/lang/Object;)V]
+  + NameAndType [<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+  + NameAndType [a [Ljava/lang/String;]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + NameAndType [forName (Ljava/lang/String;)Ljava/lang/Class;]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [onListItemClick (Landroid/widget/ListView;Landroid/view/View;IJ)V]
+  + NameAndType [printStackTrace ()V]
+  + NameAndType [setListAdapter (Landroid/widget/ListAdapter;)V]
+  + NameAndType [startActivity (Landroid/content/Intent;)V]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/content/Context;I[Ljava/lang/Object;)V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/Class;)V]
+  + Utf8 [(Landroid/content/Intent;)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/widget/ListAdapter;)V]
+  + Utf8 [(Landroid/widget/ListView;Landroid/view/View;IJ)V]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/Class;]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [MainActivity]
+  + Utf8 [Splash]
+  + Utf8 [TextPlay]
+  + Utf8 [[Ljava/lang/String;]
+  + Utf8 [a]
+  + Utf8 [android/app/ListActivity]
+  + Utf8 [android/content/Intent]
+  + Utf8 [android/widget/ArrayAdapter]
+  + Utf8 [append]
+  + Utf8 [com.example.myapp.]
+  + Utf8 [com/example/myapp/Menu]
+  + Utf8 [example2]
+  + Utf8 [example3]
+  + Utf8 [example4]
+  + Utf8 [example5]
+  + Utf8 [example6]
+  + Utf8 [forName]
+  + Utf8 [java/lang/Class]
+  + Utf8 [java/lang/ClassNotFoundException]
+  + Utf8 [java/lang/String]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [onCreate]
+  + Utf8 [onListItemClick]
+  + Utf8 [printStackTrace]
+  + Utf8 [setListAdapter]
+  + Utf8 [startActivity]
+  + Utf8 [toString]
+
+Fields (count = 1):
+  + Field:        a [Ljava/lang/String;
+    Access flags: 0x0
+      = java.lang.String[] a
+
+Methods (count = 3):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public Menu()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 56, locals = 1, stack = 5):
+      [0] aload_0 v0
+      [1] invokespecial #20
+        + Methodref [android/app/ListActivity.<init> ()V]
+      [4] aload_0 v0
+      [5] bipush 8
+      [7] anewarray #17
+        + Class [java/lang/String]
+      [10] dup
+      [11] iconst_0
+      [12] ldc #2
+        + String [MainActivity]
+      [14] aastore
+      [15] dup
+      [16] iconst_1
+      [17] ldc #3
+        + String [Splash]
+      [19] aastore
+      [20] dup
+      [21] iconst_2
+      [22] ldc #4
+        + String [TextPlay]
+      [24] aastore
+      [25] dup
+      [26] iconst_3
+      [27] ldc #6
+        + String [example2]
+      [29] aastore
+      [30] dup
+      [31] iconst_4
+      [32] ldc #7
+        + String [example3]
+      [34] aastore
+      [35] dup
+      [36] iconst_5
+      [37] ldc #8
+        + String [example4]
+      [39] aastore
+      [40] dup
+      [41] bipush 6
+      [43] ldc #9
+        + String [example5]
+      [45] aastore
+      [46] dup
+      [47] bipush 7
+      [49] ldc #10
+        + String [example6]
+      [51] aastore
+      [52] putfield #19
+        + Fieldref [com/example/myapp/Menu.a [Ljava/lang/String;]
+      [55] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x4
+      = protected void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 24, locals = 2, stack = 6):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #21
+        + Methodref [android/app/ListActivity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] new #13
+        + Class [android/widget/ArrayAdapter]
+      [9] dup
+      [10] aload_0 v0
+      [11] ldc #1
+        + Integer [17367043]
+      [13] aload_0 v0
+      [14] getfield #19
+        + Fieldref [com/example/myapp/Menu.a [Ljava/lang/String;]
+      [17] invokespecial #24
+        + Methodref [android/widget/ArrayAdapter.<init> (Landroid/content/Context;I[Ljava/lang/Object;)V]
+      [20] invokevirtual #25
+        + Methodref [com/example/myapp/Menu.setListAdapter (Landroid/widget/ListAdapter;)V]
+      [23] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V
+    Access flags: 0x4
+      = protected void onListItemClick(android.widget.ListView,android.view.View,int,long)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 74, locals = 9, stack = 6):
+      [0] aload_0 v0
+      [1] getfield #19
+        + Fieldref [com/example/myapp/Menu.a [Ljava/lang/String;]
+      [4] iload_3 v3
+      [5] aaload
+      [6] astore v6
+      [8] aload_0 v0
+      [9] aload_1 v1
+      [10] aload_2 v2
+      [11] iload_3 v3
+      [12] lload v4
+      [14] invokespecial #22
+        + Methodref [android/app/ListActivity.onListItemClick (Landroid/widget/ListView;Landroid/view/View;IJ)V]
+      [17] aconst_null
+      [18] astore v7
+      [20] new #18
+        + Class [java/lang/StringBuilder]
+      [23] dup
+      [24] invokespecial #29
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [27] ldc #5
+        + String [com.example.myapp.]
+      [29] invokevirtual #30
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [32] aload v6
+      [34] invokevirtual #30
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [37] invokevirtual #31
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [40] invokestatic #27
+        + Methodref [java/lang/Class.forName (Ljava/lang/String;)Ljava/lang/Class;]
+      [43] astore v7
+      [45] goto +10 (target=55)
+      [48] astore v8
+      [50] aload v8
+      [52] invokevirtual #28
+        + Methodref [java/lang/ClassNotFoundException.printStackTrace ()V]
+      [55] new #12
+        + Class [android/content/Intent]
+      [58] dup
+      [59] aload_0 v0
+      [60] aload v7
+      [62] invokespecial #23
+        + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+      [65] astore v8
+      [67] aload_0 v0
+      [68] aload v8
+      [70] invokevirtual #26
+        + Methodref [com/example/myapp/Menu.startActivity (Landroid/content/Intent;)V]
+      [73] return
+      Code attribute exceptions (count = 1):
+      - ExceptionInfo (20 -> 45: 48):
+      + Class [java/lang/ClassNotFoundException]
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/myapp/Splash
+  Superclass:    android/app/Activity
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x21
+    = public class com.example.myapp.Splash extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 35):
+  + Integer [2130903041]
+  + Integer [2131230723]
+  + Class [android/app/Activity]
+  + Class [android/widget/Button]
+  + Class [com/example/myapp/Splash]
+  + Class [com/example/myapp/c]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + Methodref [com/example/myapp/Splash.findViewById (I)Landroid/view/View;]
+  + Methodref [com/example/myapp/Splash.setContentView (I)V]
+  + Methodref [com/example/myapp/c.<init> (Lcom/example/myapp/Splash;)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Lcom/example/myapp/Splash;)V]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/view/View$OnClickListener;)V]
+  + Utf8 [(Lcom/example/myapp/Splash;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/widget/Button]
+  + Utf8 [com/example/myapp/Splash]
+  + Utf8 [com/example/myapp/c]
+  + Utf8 [findViewById]
+  + Utf8 [onCreate]
+  + Utf8 [setContentView]
+  + Utf8 [setOnClickListener]
+
+Fields (count = 0):
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public Splash()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #7
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x4
+      = protected void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 34, locals = 3, stack = 4):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #8
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #1
+        + Integer [2130903041]
+      [8] invokevirtual #11
+        + Methodref [com/example/myapp/Splash.setContentView (I)V]
+      [11] aload_0 v0
+      [12] ldc #2
+        + Integer [2131230723]
+      [14] invokevirtual #10
+        + Methodref [com/example/myapp/Splash.findViewById (I)Landroid/view/View;]
+      [17] checkcast #4
+        + Class [android/widget/Button]
+      [20] astore_2 v2
+      [21] aload_2 v2
+      [22] new #6
+        + Class [com/example/myapp/c]
+      [25] dup
+      [26] aload_0 v0
+      [27] invokespecial #12
+        + Methodref [com/example/myapp/c.<init> (Lcom/example/myapp/Splash;)V]
+      [30] invokevirtual #9
+        + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [33] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/myapp/c
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x20
+    = class com.example.myapp.c extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/view/View$OnClickListener]
+
+Constant Pool (count = 32):
+  + String [com.example.myapp.MENU]
+  + Class [android/content/Intent]
+  + Class [android/view/View$OnClickListener]
+  + Class [com/example/myapp/Splash]
+  + Class [com/example/myapp/c]
+  + Class [java/lang/Object]
+  + Fieldref [com/example/myapp/c.a Lcom/example/myapp/Splash;]
+  + Methodref [android/content/Intent.<init> (Ljava/lang/String;)V]
+  + Methodref [com/example/myapp/Splash.startActivity (Landroid/content/Intent;)V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [a Lcom/example/myapp/Splash;]
+  + NameAndType [startActivity (Landroid/content/Intent;)V]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/content/Intent;)V]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Lcom/example/myapp/Splash;)V]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lcom/example/myapp/Splash;]
+  + Utf8 [a]
+  + Utf8 [android/content/Intent]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [com.example.myapp.MENU]
+  + Utf8 [com/example/myapp/Splash]
+  + Utf8 [com/example/myapp/c]
+  + Utf8 [java/lang/Object]
+  + Utf8 [onClick]
+  + Utf8 [startActivity]
+
+Fields (count = 1):
+  + Field:        a Lcom/example/myapp/Splash;
+    Access flags: 0x1010
+      = final synthetic com.example.myapp.Splash a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/example/myapp/Splash;)V
+    Access flags: 0x0
+      = c(com.example.myapp.Splash)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #7
+        + Fieldref [com/example/myapp/c.a Lcom/example/myapp/Splash;]
+      [5] aload_0 v0
+      [6] invokespecial #10
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void onClick(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 19, locals = 3, stack = 3):
+      [0] new #2
+        + Class [android/content/Intent]
+      [3] dup
+      [4] ldc #1
+        + String [com.example.myapp.MENU]
+      [6] invokespecial #8
+        + Methodref [android/content/Intent.<init> (Ljava/lang/String;)V]
+      [9] astore_2 v2
+      [10] aload_0 v0
+      [11] getfield #7
+        + Fieldref [com/example/myapp/c.a Lcom/example/myapp/Splash;]
+      [14] aload_2 v2
+      [15] invokevirtual #9
+        + Methodref [com/example/myapp/Splash.startActivity (Landroid/content/Intent;)V]
+      [18] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/myapp/TextPlay
+  Superclass:    android/app/Activity
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x21
+    = public class com.example.myapp.TextPlay extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 50):
+  + Integer [2130903042]
+  + Integer [2131230724]
+  + Integer [2131230725]
+  + Integer [2131230726]
+  + Integer [2131230727]
+  + Class [android/app/Activity]
+  + Class [android/widget/Button]
+  + Class [android/widget/EditText]
+  + Class [android/widget/TextView]
+  + Class [android/widget/ToggleButton]
+  + Class [com/example/myapp/TextPlay]
+  + Class [com/example/myapp/d]
+  + Class [com/example/myapp/e]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + Methodref [android/widget/ToggleButton.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + Methodref [com/example/myapp/TextPlay.findViewById (I)Landroid/view/View;]
+  + Methodref [com/example/myapp/TextPlay.setContentView (I)V]
+  + Methodref [com/example/myapp/d.<init> (Lcom/example/myapp/TextPlay;Landroid/widget/ToggleButton;Landroid/widget/EditText;)V]
+  + Methodref [com/example/myapp/e.<init> (Lcom/example/myapp/TextPlay;Landroid/widget/EditText;Landroid/widget/TextView;)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Lcom/example/myapp/TextPlay;Landroid/widget/EditText;Landroid/widget/TextView;)V]
+  + NameAndType [<init> (Lcom/example/myapp/TextPlay;Landroid/widget/ToggleButton;Landroid/widget/EditText;)V]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/view/View$OnClickListener;)V]
+  + Utf8 [(Lcom/example/myapp/TextPlay;Landroid/widget/EditText;Landroid/widget/TextView;)V]
+  + Utf8 [(Lcom/example/myapp/TextPlay;Landroid/widget/ToggleButton;Landroid/widget/EditText;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/widget/Button]
+  + Utf8 [android/widget/EditText]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [android/widget/ToggleButton]
+  + Utf8 [com/example/myapp/TextPlay]
+  + Utf8 [com/example/myapp/d]
+  + Utf8 [com/example/myapp/e]
+  + Utf8 [findViewById]
+  + Utf8 [onCreate]
+  + Utf8 [setContentView]
+  + Utf8 [setOnClickListener]
+
+Fields (count = 0):
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public TextPlay()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #14
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x4
+      = protected void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 85, locals = 6, stack = 6):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #15
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #1
+        + Integer [2130903042]
+      [8] invokevirtual #19
+        + Methodref [com/example/myapp/TextPlay.setContentView (I)V]
+      [11] aload_0 v0
+      [12] ldc #3
+        + Integer [2131230725]
+      [14] invokevirtual #18
+        + Methodref [com/example/myapp/TextPlay.findViewById (I)Landroid/view/View;]
+      [17] checkcast #7
+        + Class [android/widget/Button]
+      [20] astore_2 v2
+      [21] aload_0 v0
+      [22] ldc #4
+        + Integer [2131230726]
+      [24] invokevirtual #18
+        + Methodref [com/example/myapp/TextPlay.findViewById (I)Landroid/view/View;]
+      [27] checkcast #10
+        + Class [android/widget/ToggleButton]
+      [30] astore_3 v3
+      [31] aload_0 v0
+      [32] ldc #2
+        + Integer [2131230724]
+      [34] invokevirtual #18
+        + Methodref [com/example/myapp/TextPlay.findViewById (I)Landroid/view/View;]
+      [37] checkcast #8
+        + Class [android/widget/EditText]
+      [40] astore v4
+      [42] aload_0 v0
+      [43] ldc #5
+        + Integer [2131230727]
+      [45] invokevirtual #18
+        + Methodref [com/example/myapp/TextPlay.findViewById (I)Landroid/view/View;]
+      [48] checkcast #9
+        + Class [android/widget/TextView]
+      [51] astore v5
+      [53] aload_3 v3
+      [54] new #12
+        + Class [com/example/myapp/d]
+      [57] dup
+      [58] aload_0 v0
+      [59] aload_3 v3
+      [60] aload v4
+      [62] invokespecial #20
+        + Methodref [com/example/myapp/d.<init> (Lcom/example/myapp/TextPlay;Landroid/widget/ToggleButton;Landroid/widget/EditText;)V]
+      [65] invokevirtual #17
+        + Methodref [android/widget/ToggleButton.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [68] aload_2 v2
+      [69] new #13
+        + Class [com/example/myapp/e]
+      [72] dup
+      [73] aload_0 v0
+      [74] aload v4
+      [76] aload v5
+      [78] invokespecial #21
+        + Methodref [com/example/myapp/e.<init> (Lcom/example/myapp/TextPlay;Landroid/widget/EditText;Landroid/widget/TextView;)V]
+      [81] invokevirtual #16
+        + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [84] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/myapp/d
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x20
+    = class com.example.myapp.d extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/view/View$OnClickListener]
+
+Constant Pool (count = 39):
+  + Class [android/view/View$OnClickListener]
+  + Class [android/widget/EditText]
+  + Class [android/widget/ToggleButton]
+  + Class [com/example/myapp/d]
+  + Class [java/lang/Object]
+  + Fieldref [com/example/myapp/d.a Landroid/widget/ToggleButton;]
+  + Fieldref [com/example/myapp/d.b Landroid/widget/EditText;]
+  + Fieldref [com/example/myapp/d.c Lcom/example/myapp/TextPlay;]
+  + Methodref [android/widget/EditText.setInputType (I)V]
+  + Methodref [android/widget/ToggleButton.isChecked ()Z]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Landroid/widget/ToggleButton;]
+  + NameAndType [b Landroid/widget/EditText;]
+  + NameAndType [c Lcom/example/myapp/TextPlay;]
+  + NameAndType [isChecked ()Z]
+  + NameAndType [setInputType (I)V]
+  + Utf8 [()V]
+  + Utf8 [()Z]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Lcom/example/myapp/TextPlay;Landroid/widget/ToggleButton;Landroid/widget/EditText;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/widget/EditText;]
+  + Utf8 [Landroid/widget/ToggleButton;]
+  + Utf8 [Lcom/example/myapp/TextPlay;]
+  + Utf8 [a]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [android/widget/EditText]
+  + Utf8 [android/widget/ToggleButton]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [com/example/myapp/d]
+  + Utf8 [isChecked]
+  + Utf8 [java/lang/Object]
+  + Utf8 [onClick]
+  + Utf8 [setInputType]
+
+Fields (count = 3):
+  + Field:        a Landroid/widget/ToggleButton;
+    Access flags: 0x1010
+      = final synthetic android.widget.ToggleButton a
+  + Field:        b Landroid/widget/EditText;
+    Access flags: 0x1010
+      = final synthetic android.widget.EditText b
+  + Field:        c Lcom/example/myapp/TextPlay;
+    Access flags: 0x1010
+      = final synthetic com.example.myapp.TextPlay c
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/example/myapp/TextPlay;Landroid/widget/ToggleButton;Landroid/widget/EditText;)V
+    Access flags: 0x0
+      = d(com.example.myapp.TextPlay,android.widget.ToggleButton,android.widget.EditText)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 20, locals = 4, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #8
+        + Fieldref [com/example/myapp/d.c Lcom/example/myapp/TextPlay;]
+      [5] aload_0 v0
+      [6] aload_2 v2
+      [7] putfield #6
+        + Fieldref [com/example/myapp/d.a Landroid/widget/ToggleButton;]
+      [10] aload_0 v0
+      [11] aload_3 v3
+      [12] putfield #7
+        + Fieldref [com/example/myapp/d.b Landroid/widget/EditText;]
+      [15] aload_0 v0
+      [16] invokespecial #11
+        + Methodref [java/lang/Object.<init> ()V]
+      [19] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void onClick(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 32, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #6
+        + Fieldref [com/example/myapp/d.a Landroid/widget/ToggleButton;]
+      [4] invokevirtual #10
+        + Methodref [android/widget/ToggleButton.isChecked ()Z]
+      [7] ifeq +16 (target=23)
+      [10] aload_0 v0
+      [11] getfield #7
+        + Fieldref [com/example/myapp/d.b Landroid/widget/EditText;]
+      [14] sipush 129
+      [17] invokevirtual #9
+        + Methodref [android/widget/EditText.setInputType (I)V]
+      [20] goto +11 (target=31)
+      [23] aload_0 v0
+      [24] getfield #7
+        + Fieldref [com/example/myapp/d.b Landroid/widget/EditText;]
+      [27] iconst_1
+      [28] invokevirtual #9
+        + Methodref [android/widget/EditText.setInputType (I)V]
+      [31] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/myapp/e
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x20
+    = class com.example.myapp.e extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/view/View$OnClickListener]
+
+Constant Pool (count = 83):
+  + Integer [-16777216]
+  + Integer [-16776961]
+  + Integer [17170443]
+  + Integer [17170459]
+  + String []
+  + String [blue]
+  + String [center]
+  + String [left]
+  + String [right]
+  + Class [android/view/View$OnClickListener]
+  + Class [android/widget/EditText]
+  + Class [android/widget/TextView]
+  + Class [com/example/myapp/e]
+  + Class [java/lang/Object]
+  + Class [java/lang/String]
+  + Class [java/lang/StringBuilder]
+  + Fieldref [com/example/myapp/e.a Landroid/widget/EditText;]
+  + Fieldref [com/example/myapp/e.b Landroid/widget/TextView;]
+  + Fieldref [com/example/myapp/e.c Lcom/example/myapp/TextPlay;]
+  + Methodref [android/widget/EditText.getText ()Landroid/text/Editable;]
+  + Methodref [android/widget/TextView.setBackgroundColor (I)V]
+  + Methodref [android/widget/TextView.setGravity (I)V]
+  + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+  + Methodref [android/widget/TextView.setTextColor (I)V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + Methodref [java/lang/String.contentEquals (Ljava/lang/CharSequence;)Z]
+  + Methodref [java/lang/StringBuilder.<init> ()V]
+  + Methodref [java/lang/StringBuilder.append (Ljava/lang/Object;)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Landroid/widget/EditText;]
+  + NameAndType [append (Ljava/lang/Object;)Ljava/lang/StringBuilder;]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + NameAndType [b Landroid/widget/TextView;]
+  + NameAndType [c Lcom/example/myapp/TextPlay;]
+  + NameAndType [contentEquals (Ljava/lang/CharSequence;)Z]
+  + NameAndType [getText ()Landroid/text/Editable;]
+  + NameAndType [setBackgroundColor (I)V]
+  + NameAndType [setGravity (I)V]
+  + NameAndType [setText (Ljava/lang/CharSequence;)V]
+  + NameAndType [setTextColor (I)V]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + Utf8 []
+  + Utf8 [()Landroid/text/Editable;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Lcom/example/myapp/TextPlay;Landroid/widget/EditText;Landroid/widget/TextView;)V]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [(Ljava/lang/CharSequence;)Z]
+  + Utf8 [(Ljava/lang/Object;)Ljava/lang/StringBuilder;]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/widget/EditText;]
+  + Utf8 [Landroid/widget/TextView;]
+  + Utf8 [Lcom/example/myapp/TextPlay;]
+  + Utf8 [a]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [android/widget/EditText]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [append]
+  + Utf8 [b]
+  + Utf8 [blue]
+  + Utf8 [c]
+  + Utf8 [center]
+  + Utf8 [com/example/myapp/e]
+  + Utf8 [contentEquals]
+  + Utf8 [getText]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/String]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [left]
+  + Utf8 [onClick]
+  + Utf8 [right]
+  + Utf8 [setBackgroundColor]
+  + Utf8 [setGravity]
+  + Utf8 [setText]
+  + Utf8 [setTextColor]
+  + Utf8 [toString]
+
+Fields (count = 3):
+  + Field:        a Landroid/widget/EditText;
+    Access flags: 0x1010
+      = final synthetic android.widget.EditText a
+  + Field:        b Landroid/widget/TextView;
+    Access flags: 0x1010
+      = final synthetic android.widget.TextView b
+  + Field:        c Lcom/example/myapp/TextPlay;
+    Access flags: 0x1010
+      = final synthetic com.example.myapp.TextPlay c
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/example/myapp/TextPlay;Landroid/widget/EditText;Landroid/widget/TextView;)V
+    Access flags: 0x0
+      = e(com.example.myapp.TextPlay,android.widget.EditText,android.widget.TextView)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 20, locals = 4, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #19
+        + Fieldref [com/example/myapp/e.c Lcom/example/myapp/TextPlay;]
+      [5] aload_0 v0
+      [6] aload_2 v2
+      [7] putfield #17
+        + Fieldref [com/example/myapp/e.a Landroid/widget/EditText;]
+      [10] aload_0 v0
+      [11] aload_3 v3
+      [12] putfield #18
+        + Fieldref [com/example/myapp/e.b Landroid/widget/TextView;]
+      [15] aload_0 v0
+      [16] invokespecial #25
+        + Methodref [java/lang/Object.<init> ()V]
+      [19] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void onClick(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 176, locals = 3, stack = 2):
+      [0] new #16
+        + Class [java/lang/StringBuilder]
+      [3] dup
+      [4] invokespecial #27
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [7] aload_0 v0
+      [8] getfield #17
+        + Fieldref [com/example/myapp/e.a Landroid/widget/EditText;]
+      [11] invokevirtual #20
+        + Methodref [android/widget/EditText.getText ()Landroid/text/Editable;]
+      [14] invokevirtual #28
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/Object;)Ljava/lang/StringBuilder;]
+      [17] ldc #5
+        + String []
+      [19] invokevirtual #29
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [22] invokevirtual #30
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [25] astore_2 v2
+      [26] aload_0 v0
+      [27] getfield #18
+        + Fieldref [com/example/myapp/e.b Landroid/widget/TextView;]
+      [30] aload_2 v2
+      [31] invokevirtual #23
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [34] aload_2 v2
+      [35] ldc #8
+        + String [left]
+      [37] invokevirtual #26
+        + Methodref [java/lang/String.contentEquals (Ljava/lang/CharSequence;)Z]
+      [40] ifeq +22 (target=62)
+      [43] aload_0 v0
+      [44] getfield #18
+        + Fieldref [com/example/myapp/e.b Landroid/widget/TextView;]
+      [47] iconst_3
+      [48] invokevirtual #22
+        + Methodref [android/widget/TextView.setGravity (I)V]
+      [51] aload_0 v0
+      [52] getfield #18
+        + Fieldref [com/example/myapp/e.b Landroid/widget/TextView;]
+      [55] aload_2 v2
+      [56] invokevirtual #23
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [59] goto +116 (target=175)
+      [62] aload_2 v2
+      [63] ldc #9
+        + String [right]
+      [65] invokevirtual #26
+        + Methodref [java/lang/String.contentEquals (Ljava/lang/CharSequence;)Z]
+      [68] ifeq +22 (target=90)
+      [71] aload_0 v0
+      [72] getfield #18
+        + Fieldref [com/example/myapp/e.b Landroid/widget/TextView;]
+      [75] aload_2 v2
+      [76] invokevirtual #23
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [79] aload_0 v0
+      [80] getfield #18
+        + Fieldref [com/example/myapp/e.b Landroid/widget/TextView;]
+      [83] iconst_5
+      [84] invokevirtual #22
+        + Methodref [android/widget/TextView.setGravity (I)V]
+      [87] goto +88 (target=175)
+      [90] aload_2 v2
+      [91] ldc #7
+        + String [center]
+      [93] invokevirtual #26
+        + Methodref [java/lang/String.contentEquals (Ljava/lang/CharSequence;)Z]
+      [96] ifeq +23 (target=119)
+      [99] aload_0 v0
+      [100] getfield #18
+        + Fieldref [com/example/myapp/e.b Landroid/widget/TextView;]
+      [103] aload_2 v2
+      [104] invokevirtual #23
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [107] aload_0 v0
+      [108] getfield #18
+        + Fieldref [com/example/myapp/e.b Landroid/widget/TextView;]
+      [111] bipush 17
+      [113] invokevirtual #22
+        + Methodref [android/widget/TextView.setGravity (I)V]
+      [116] goto +59 (target=175)
+      [119] aload_2 v2
+      [120] ldc #6
+        + String [blue]
+      [122] invokevirtual #26
+        + Methodref [java/lang/String.contentEquals (Ljava/lang/CharSequence;)Z]
+      [125] ifeq +32 (target=157)
+      [128] aload_0 v0
+      [129] getfield #18
+        + Fieldref [com/example/myapp/e.b Landroid/widget/TextView;]
+      [132] aload_2 v2
+      [133] invokevirtual #23
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [136] aload_0 v0
+      [137] getfield #18
+        + Fieldref [com/example/myapp/e.b Landroid/widget/TextView;]
+      [140] ldc #4
+        + Integer [17170459]
+      [142] invokevirtual #21
+        + Methodref [android/widget/TextView.setBackgroundColor (I)V]
+      [145] aload_0 v0
+      [146] getfield #18
+        + Fieldref [com/example/myapp/e.b Landroid/widget/TextView;]
+      [149] ldc #2
+        + Integer [-16776961]
+      [151] invokevirtual #24
+        + Methodref [android/widget/TextView.setTextColor (I)V]
+      [154] goto +21 (target=175)
+      [157] aload_0 v0
+      [158] getfield #18
+        + Fieldref [com/example/myapp/e.b Landroid/widget/TextView;]
+      [161] ldc #1
+        + Integer [-16777216]
+      [163] invokevirtual #24
+        + Methodref [android/widget/TextView.setTextColor (I)V]
+      [166] aload_0 v0
+      [167] getfield #18
+        + Fieldref [com/example/myapp/e.b Landroid/widget/TextView;]
+      [170] ldc #3
+        + Integer [17170443]
+      [172] invokevirtual #21
+        + Methodref [android/widget/TextView.setBackgroundColor (I)V]
+      [175] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+

@@ -1,0 +1,35 @@
+com.example.myapp.MainActivity -> com.example.myapp.MainActivity:
+    int counter -> a
+    android.widget.Button add -> b
+    android.widget.Button sub -> c
+    android.widget.TextView display -> d
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+com.example.myapp.MainActivity$1 -> com.example.myapp.a:
+    com.example.myapp.MainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.example.myapp.MainActivity$2 -> com.example.myapp.b:
+    com.example.myapp.MainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.example.myapp.Menu -> com.example.myapp.Menu:
+    java.lang.String[] classes -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void onListItemClick(android.widget.ListView,android.view.View,int,long) -> onListItemClick
+com.example.myapp.Splash -> com.example.myapp.Splash:
+    void onCreate(android.os.Bundle) -> onCreate
+com.example.myapp.Splash$1 -> com.example.myapp.c:
+    com.example.myapp.Splash this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.example.myapp.TextPlay -> com.example.myapp.TextPlay:
+    void onCreate(android.os.Bundle) -> onCreate
+com.example.myapp.TextPlay$1 -> com.example.myapp.d:
+    android.widget.ToggleButton val$passTog -> a
+    android.widget.EditText val$input -> b
+    com.example.myapp.TextPlay this$0 -> c
+    void onClick(android.view.View) -> onClick
+com.example.myapp.TextPlay$2 -> com.example.myapp.e:
+    android.widget.EditText val$input -> a
+    android.widget.TextView val$display -> b
+    com.example.myapp.TextPlay this$0 -> c
+    void onClick(android.view.View) -> onClick
